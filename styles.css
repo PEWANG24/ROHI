@@ -329,7 +329,7 @@ h1, h2, h3 {
 
 /* Capability strip */
 .strip {
-  background: var(--charcoal);
+  background: var(--brand);
   color: #fff;
   padding: 1.15rem 0;
 }
@@ -355,7 +355,7 @@ h1, h2, h3 {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--brand);
+  background: #fff;
 }
 
 /* Sections */
