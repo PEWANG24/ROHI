@@ -1,8 +1,8 @@
-/* ROHI — premium construction landing page */
+/* ROHI - premium construction landing page */
 
 :root {
-  --red: #c8102e;
-  --red-deep: #9a0d23;
+  --red: #e85d04;
+  --red-deep: #c2410c;
   --ink: #101010;
   --charcoal: #1c1c1c;
   --soft: #3a3a3a;
@@ -481,7 +481,7 @@ h1, h2, h3 {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   margin-bottom: 0.3rem;
-  color: #f0c9cf;
+  color: #fed7aa;
 }
 
 .showcase-grid figcaption strong {
@@ -655,7 +655,7 @@ h1, h2, h3 {
   word-break: break-word;
 }
 
-.direct a:hover { color: #ffb3bf; }
+.direct a:hover { color: #fdba74; }
 
 .wa-link { color: #7ddecf !important; }
 .wa-link:hover { color: #b6f0e6 !important; }
@@ -803,7 +803,7 @@ h1, h2, h3 {
 .footer-cols .label { color: #8a8a8a; }
 .footer-cols p:last-child { margin: 0; color: #fff; font-weight: 600; line-height: 1.55; }
 .footer-cols a { color: #fff; text-decoration: none; }
-.footer-cols a:hover { color: #ffb3bf; }
+.footer-cols a:hover { color: #fdba74; }
 
 .footer-base {
   padding-top: 1.2rem;
