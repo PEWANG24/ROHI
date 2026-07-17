@@ -1,8 +1,8 @@
 /* ROHI - premium construction landing page */
 
 :root {
-  --red: #e85d04;
-  --red-deep: #c2410c;
+  --brand: #ff6a00;
+  --brand-deep: #e55f00;
   --ink: #101010;
   --charcoal: #1c1c1c;
   --soft: #3a3a3a;
@@ -68,7 +68,7 @@ h1, h2, h3 {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--brand);
 }
 
 .lede {
@@ -108,13 +108,13 @@ h1, h2, h3 {
 .btn:active { transform: translateY(1px); }
 
 .btn-solid {
-  background: var(--red);
+  background: var(--brand);
   color: #fff;
-  border-color: var(--red);
+  border-color: var(--brand);
 }
 .btn-solid:hover {
-  background: var(--red-deep);
-  border-color: var(--red-deep);
+  background: var(--brand-deep);
+  border-color: var(--brand-deep);
   color: #fff;
 }
 
@@ -149,6 +149,7 @@ h1, h2, h3 {
   height: var(--header);
   background: var(--white);
   border-bottom: 1px solid var(--line);
+  box-shadow: inset 0 -3px 0 var(--brand);
 }
 
 .header-bar {
@@ -202,7 +203,7 @@ h1, h2, h3 {
   font-weight: 600;
   color: var(--ink);
 }
-.site-nav a:hover { color: var(--red); }
+.site-nav a:hover { color: var(--brand); }
 
 .nav-toggle {
   display: none;
@@ -284,6 +285,7 @@ h1, h2, h3 {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  color: #ffb347;
   opacity: 0;
   animation: rise 0.9s var(--ease) 0.28s forwards;
 }
@@ -353,7 +355,7 @@ h1, h2, h3 {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--red);
+  background: var(--brand);
 }
 
 /* Sections */
@@ -411,7 +413,7 @@ h1, h2, h3 {
 .service-icon {
   width: 2.75rem;
   height: 2.75rem;
-  color: var(--red);
+  color: var(--brand);
   margin-bottom: 1.1rem;
 }
 
@@ -515,7 +517,7 @@ h1, h2, h3 {
   font-family: var(--display);
   font-size: 2.4rem;
   font-weight: 800;
-  color: var(--red);
+  color: var(--brand);
   line-height: 1;
 }
 
@@ -596,7 +598,7 @@ h1, h2, h3 {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--brand);
 }
 
 .facts dd {
@@ -753,7 +755,7 @@ h1, h2, h3 {
   color: var(--muted);
 }
 .form-note.is-success { color: var(--wa); }
-.form-note.is-error { color: var(--red); }
+.form-note.is-error { color: var(--brand); }
 
 /* Footer */
 .site-footer {

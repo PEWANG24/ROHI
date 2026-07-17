@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 90" fill="none" role="img" aria-label="ROHI Construction logo">
-  <path d="M28 34 L62 8 L96 34" stroke="#E85D04" stroke-width="4.5" stroke-linejoin="miter" fill="none"/>
-  <path d="M88 10 V22" stroke="#E85D04" stroke-width="4.5" stroke-linecap="square"/>
+  <path d="M28 34 L62 8 L96 34" stroke="#FF6A00" stroke-width="4.5" stroke-linejoin="miter" fill="none"/>
+  <path d="M88 10 V22" stroke="#FF6A00" stroke-width="4.5" stroke-linecap="square"/>
   <path d="M70 30 L130 8 L170 34 L70 34 Z" fill="#1A1A1A"/>
-  <path d="M24 44 C70 62 120 62 176 40" stroke="#E85D04" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M24 44 C70 62 120 62 176 40" stroke="#FF6A00" stroke-width="9" stroke-linecap="round" fill="none"/>
   <text x="100" y="82" text-anchor="middle" font-family="Arial Black, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="3" fill="#1A1A1A">ROHI</text>
 </svg>
