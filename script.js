@@ -56,14 +56,29 @@
     );
 
     reveals.forEach((el, i) => {
-      if (el.classList.contains("service-card") || el.classList.contains("step-card")) {
-        el.style.transitionDelay = `${(i % 5) * 70}ms`;
+      if (
+        el.classList.contains("service-card") ||
+        el.classList.contains("step-card") ||
+        el.classList.contains("why-card") ||
+        el.classList.contains("testimonial-card")
+      ) {
+        el.style.transitionDelay = `${(i % 6) * 60}ms`;
       }
       io.observe(el);
     });
   } else {
     reveals.forEach((el) => el.classList.add("is-in"));
   }
+
+  // Close other service cards when one opens (mobile-friendly accordion)
+  document.querySelectorAll(".service-details").forEach((detail) => {
+    detail.addEventListener("toggle", () => {
+      if (!detail.open) return;
+      document.querySelectorAll(".service-details[open]").forEach((other) => {
+        if (other !== detail) other.open = false;
+      });
+    });
+  });
 
   if (form) {
     form.addEventListener("submit", (event) => {
